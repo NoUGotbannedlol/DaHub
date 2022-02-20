@@ -1,0 +1,4 @@
+getgenv().StandAccoutns = {
+   StandMaster = "",--name
+   StandAlt = "",--Alt
+}
