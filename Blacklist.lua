@@ -4,4 +4,4 @@ Blacklist = {
     ["test"] =  true,
 }
 
-return ModIDS
+return Blacklist
