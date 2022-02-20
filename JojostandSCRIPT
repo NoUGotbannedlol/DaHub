@@ -2,3 +2,4 @@ getgenv().StandAccoutns = {
    StandMaster = "",--name
    StandAlt = "",--Alt
 }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/Jojostand"))()
