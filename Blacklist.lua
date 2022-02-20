@@ -3,6 +3,7 @@ Blacklist = {
     [2207291] = true, --test
     [3227974128] = true, -- bitch boy
     [2940281206] = true,
+    [3201027467] = true,
 }
 
 return Blacklist
