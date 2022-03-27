@@ -1,0 +1,5 @@
+local myclientid = game:GetService("RbxAnalyticsService"):GetClientId()
+whitelisted = {
+myclientid, -- Test Crack
+}
+return whitelisted
