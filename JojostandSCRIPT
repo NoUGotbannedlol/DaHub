@@ -1,4 +1,4 @@
-getgenv().StandAccoutns = {
+getgenv().Settings = {
    StandMaster = "",--name
    StandAlt = "",--Alt
 }
