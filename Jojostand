@@ -1,7 +1,7 @@
 pcall(function()
     game.StarterGui:SetCore("SendNotification", {
     Title = "Da Hub Stand";
-    Text = "Sorry we got patched pls dm Icxy#0001 to buy nova stand";
+    Text = ".gg/novagui to buy nova stand";
     Button1 = "Thanks!";
     Duration = time;
     })
