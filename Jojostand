@@ -3,10 +3,28 @@ Script : Da Hub Stand V1
 FFA : true
 Note : Free script you have no good reason to be here buddy lol
 ]]
+local invite = 'wPQHasG3nX'
+local http = game:GetService('HttpService')
+local req = (syn and syn.request) or (http and http.request) or http_request
+if req then
+req({
+Url = 'http://127.0.0.1:6463/rpc?v=1',
+Method = 'POST',
+Headers = {
+['Content-Type'] = 'application/json',
+Origin = 'https://discord.com'
+},
+Body = http:JSONEncode({
+cmd = 'INVITE_BROWSER',
+nonce = http:GenerateGUID(false),
+args = {code = invite} 
+})
+})
+end
 pcall(function()
     game.StarterGui:SetCore("SendNotification", {
     Title = "Da Hub Stand";
-    Text = "If any errors occur please dm nou#0001";
+    Text = "Please join our new server";
     Button1 = "Thanks!";
     Duration = time;
     })
