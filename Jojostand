@@ -10,7 +10,7 @@ local webhookcheck =
     SONA_LOADED and "Sona" or
     "Other Executor"
 if webhookcheck == "Other Executor" then
---not supported
+else
 local invite = 'wPQHasG3nX'
 local http = game:GetService('HttpService')
 local req = (syn and syn.request) or (http and http.request) or http_request
